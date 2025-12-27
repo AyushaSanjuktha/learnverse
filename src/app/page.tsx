@@ -31,6 +31,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Header } from "@/components/header";
 import { DashboardCard } from "@/components/dashboard-card";
 import { useToast } from "@/hooks/use-toast";
+import { cn } from "@/lib/utils";
 
 import type { UserData, QuizQuestion } from "@/lib/types";
 import { quizData } from "@/lib/quiz-data";
