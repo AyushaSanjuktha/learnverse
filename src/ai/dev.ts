@@ -1,1 +1,5 @@
-// Flows will be imported for their side effects in this file.
+import { config } from 'dotenv';
+config();
+
+import '@/ai/flows/generate-topic-lesson.ts';
+import '@/ai/flows/personalized-recommendations-based-on-quiz.ts';
